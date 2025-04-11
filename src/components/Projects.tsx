@@ -1,17 +1,17 @@
-import blogsite from "../../images/blogsite.png"
 import crypto from "../../images/cryptoPortfolio.png"
 import netflix from "../../images/netflix.png"
 import chatapp from "../../images/chatapp.png"
+import mood from "../../images/mood.png"
 import { motion } from "framer-motion"
 
 const PROJECTS = [
   {
-    title: "E-Commerce Blog  Website",
-    image: blogsite,
+    title: "Moodify",
+    image: mood,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and blogs with likes and comments.",
-    technologies: ["Typescript", "TailwindCSS", "React"],
-    link: "https://github.com/Carrotrust/ecommerce-blog.git",
+      "Moodify is a simple and intuitive mood-tracking app that helps users log how they feel each day. With a beautiful calendar view, quick mood selection, and personalized stats, Moodify makes it easy to stay in tune with your emotions and track your mental wellness over time.",
+    technologies: ["Next", "Firebase", "Typescript"],
+    link: "https://moodify-hazel.vercel.app/",
   },
   {
     title: "Crypto Portfolio app ",
